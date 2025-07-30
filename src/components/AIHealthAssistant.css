@@ -1,0 +1,32 @@
+/* AIHealthAssistant.css */
+.chat-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.chat-box {
+  background: #f9f9f9;
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user-message {
+  text-align: right;
+  color: blue;
+  margin: 5px 0;
+}
+
+.bot-message {
+  text-align: left;
+  color: green;
+  margin: 5px 0;
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 10px;
+}
